@@ -1,6 +1,10 @@
 # try-docker-python-basic
 > 🐳 A pretty simple try on Docker with Python
 
+# Motivation
+Learn more about Docker.
+Based on: [Gael Thomas, A beginner's guide to Docker](https://medium.freecodecamp.org/a-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f)
+
 # Running the Docker Container
 In order to accomplish the steps ahead successfully, you must install Docker first.
 [Docker Official Website](https://www.docker.com/get-started)
