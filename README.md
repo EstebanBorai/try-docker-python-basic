@@ -38,8 +38,8 @@ docker run try-docker
 Command | Description
 ------------ | -------------
 `docker run <image name>` | Starts a Docker container
-`docker images -a` | Prints loaded images
-`docker container ls` | Prints loaded containers
+`docker images ls -a` | Prints loaded images
+`docker container ls -a` | Prints loaded containers
 `docker stop <container name>` | Stops a Docker container
 `docker stop $(docker ps -a -q)` | Stop all containers
 `docker logs <container name>` | Display logs of the specified container
@@ -50,3 +50,4 @@ Command | Description
 `docker rm $(docker ps -a -q)` | Delete all containers
 `docker system prune --all` | Remove unused data. Remove all unused images not just dangling ones
 `docker system prune --volumes` | Prune volumes
+`docker system prune --all --force --volumes` | Removes everything (💣)
